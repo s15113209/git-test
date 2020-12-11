@@ -13,6 +13,7 @@ git reset --hard HEAD~1     回到上一個版本
 git st          ...
 
 git branch canvas       git branch可以產生一個分支(命名canvas)
-建立分支
+git checkout canvas     切換到canvas
 git branch              查看當前位置
-git merge canvas        將分支合併
+git checkout master     切回master
+git merge canvas        將分支合併至當前位置(master)
