@@ -22,5 +22,6 @@ git commit --amend ID   可以修改備註 ID=GitGraph套件的commit標籤內�
 git log
 git tag v1.0            ??
 
+git remote add origin https://github.com/s15113209/git-test.git
 git pull origin master
 git push origin master  
