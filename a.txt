@@ -3,7 +3,7 @@ git config --global user.name Mai			設定作者名稱(通常使用個人電腦 
 git config --global user.email s15113209@stu.edu.tw	設定作者email(可以不打global 但每個專案資料夾都要輸入作者資訊)
 git add a.txt						將新建立的a.txt(還沒被git控管)納入git控管中
 git status						查看當前控管狀態(可以看到剛才納入的a.txt)
-git commit -m "add a.txt"       commit a.txt並附帶備註(-m)
+git commit -am "add a.txt"       commit a.txt並附帶備註(-m)
 
 修改a.txt後 仍使用add a.txt將被修改過的檔案加入控管(等於更新)
 並再次commit(提交)一次
@@ -17,3 +17,7 @@ git checkout canvas     切換到canvas
 git branch              查看當前位置
 git checkout master     切回master
 git merge canvas        將分支合併至當前位置(master)
+
+git commit --amend ID   可以修改備註 ID=GitGraph套件的commit標籤內容
+git log
+git tag v1.0
