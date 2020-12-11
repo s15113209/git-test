@@ -26,3 +26,12 @@ git tag v1.0            ??
 git remote add origin https://github.com/s15113209/git-test.git
 git pull origin master
 git push origin master  
+
+
+-------------------------------------
+.gitconfig檔
+[alias]
+	co = checkout
+	st = status
+	br = branch
+	cm = commit
