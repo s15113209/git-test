@@ -5,7 +5,8 @@ git add a.txt						將新建立的a.txt(還沒被git控管)納入git控管中
 git status						查看當前控管狀態(可以看到剛才納入的a.txt)
 git commit -am "add a.txt"       commit a.txt並附帶備註(-m)
 
-修改a.txt後 仍使用add a.txt將被修改過的檔案加入控管(等於更新)
+add指令目的在將"新檔案" 納入git控管中 因此當檔案被更新時 可以不加(因為該檔已經在git控管中 只是內容變動)
+如果創建一個新檔案 則必須使用add
 並再次commit(提交)一次
 安裝git graph套件(vscode)輔助使用git管理
 git diff        可以檢視你的檔案中被修改的地方
