@@ -10,4 +10,5 @@
 - git branch canvas
 - git checkout canvas
 - git merge canvas
-- git clone URLLL
+- git clone URL
+
