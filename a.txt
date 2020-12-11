@@ -21,3 +21,6 @@ git merge canvas        將分支合併至當前位置(master)
 git commit --amend ID   可以修改備註 ID=GitGraph套件的commit標籤內容
 git log
 git tag v1.0            ??
+
+git pull origin master
+git push origin master  
