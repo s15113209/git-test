@@ -11,4 +11,3 @@
 - git checkout canvas
 - git merge canvas
 - git clone URL
-
